@@ -11,6 +11,13 @@
 		443C238A267269950084C63F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C2389267269950084C63F /* ContentView.swift */; };
 		443C238C267269960084C63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443C238B267269960084C63F /* Assets.xcassets */; };
 		443C238F267269960084C63F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443C238E267269960084C63F /* Preview Assets.xcassets */; };
+		443C239B2672744A0084C63F /* SecurityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C239A2672744A0084C63F /* SecurityCheck.swift */; };
+		443C239D267274810084C63F /* JailbreakDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C239C267274810084C63F /* JailbreakDetection.swift */; };
+		443C239F267274960084C63F /* DetectionMechanism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C239E267274960084C63F /* DetectionMechanism.swift */; };
+		443C23A126729A590084C63F /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C23A026729A590084C63F /* Issue.swift */; };
+		443C23A426729BE90084C63F /* View+isHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C23A326729BE90084C63F /* View+isHidden.swift */; };
+		443C23A626729DD90084C63F /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C23A526729DD80084C63F /* DescriptionView.swift */; };
+		443C23A82672A2970084C63F /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443C23A72672A2970084C63F /* Description.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		443C2389267269950084C63F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		443C238B267269960084C63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443C238E267269960084C63F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		443C239A2672744A0084C63F /* SecurityCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheck.swift; sourceTree = "<group>"; };
+		443C239C267274810084C63F /* JailbreakDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakDetection.swift; sourceTree = "<group>"; };
+		443C239E267274960084C63F /* DetectionMechanism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionMechanism.swift; sourceTree = "<group>"; };
+		443C23A026729A590084C63F /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		443C23A326729BE90084C63F /* View+isHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+isHidden.swift"; sourceTree = "<group>"; };
+		443C23A526729DD80084C63F /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		443C23A72672A2970084C63F /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 		443C2386267269950084C63F /* Security Companion */ = {
 			isa = PBXGroup;
 			children = (
+				443C23A226729BD90084C63F /* Views */,
+				443C2399267274370084C63F /* SecurityChecks */,
 				443C2387267269950084C63F /* Security_CompanionApp.swift */,
 				443C2389267269950084C63F /* ContentView.swift */,
 				443C238B267269960084C63F /* Assets.xcassets */,
@@ -65,6 +81,27 @@
 				443C238E267269960084C63F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		443C2399267274370084C63F /* SecurityChecks */ = {
+			isa = PBXGroup;
+			children = (
+				443C239A2672744A0084C63F /* SecurityCheck.swift */,
+				443C239C267274810084C63F /* JailbreakDetection.swift */,
+				443C239E267274960084C63F /* DetectionMechanism.swift */,
+				443C23A026729A590084C63F /* Issue.swift */,
+				443C23A72672A2970084C63F /* Description.swift */,
+			);
+			path = SecurityChecks;
+			sourceTree = "<group>";
+		};
+		443C23A226729BD90084C63F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				443C23A326729BE90084C63F /* View+isHidden.swift */,
+				443C23A526729DD80084C63F /* DescriptionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +176,13 @@
 			files = (
 				443C238A267269950084C63F /* ContentView.swift in Sources */,
 				443C2388267269950084C63F /* Security_CompanionApp.swift in Sources */,
+				443C23A426729BE90084C63F /* View+isHidden.swift in Sources */,
+				443C239B2672744A0084C63F /* SecurityCheck.swift in Sources */,
+				443C239F267274960084C63F /* DetectionMechanism.swift in Sources */,
+				443C239D267274810084C63F /* JailbreakDetection.swift in Sources */,
+				443C23A82672A2970084C63F /* Description.swift in Sources */,
+				443C23A126729A590084C63F /* Issue.swift in Sources */,
+				443C23A626729DD90084C63F /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
